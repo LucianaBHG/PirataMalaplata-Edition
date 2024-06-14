@@ -1,0 +1,19 @@
+~ start
+
+Gran Pirata: Hola pequeño pirata, soy El big boy Panaberto ¿En qué te puedo ayudar?.
+Pirata Malaplata: Hola, que grande eres....estaba interesado en comprar un cañon destructor.
+Gran Pirata: Lo siento, por ahora solo te ofrezco bombas. Son 5 monedas de oro por cada una, ¡es un ofertón!
+Pirata Malaplata: Bueno...
+- Quiero una, hay que ahorrar
+	=> pay
+- Quiero tres
+	=> pay
+- Quiero cinco
+	=> pay
+- Las que me alcancen con estas monedas, monedas sobran
+	=> END
+
+~ pay
+Gran Pirata: Estas seguro que sí te alcanza, ¿verdad?.
+Pirata Malaplata: ¡Claro que sí!
+=> END

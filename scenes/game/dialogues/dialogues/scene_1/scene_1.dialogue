@@ -1,0 +1,13 @@
+~ dialogue_1
+
+Selena la Ballena: ¡Hola gran aventurero! Te habla la sabia ballena Luk ¿qué te trae por estos lugares?
+Pirata Malaplata: Necesito abrir la puerta. ¿Puedes ayudarme, por favor?
+Selena la Ballena: Sí, claro. Sólo tienes que presionar la tecla [A] y la puerta se abrirá..
+
+- Muchas gracias, ¡lo intentaré!
+  => dialogue_2
+
+
+~ dialogue_2
+Selena la Ballena: ¡Bueno nos vemos! Hasta luego...
+=> END
