@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://5va2c11ojds3" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/objects/spikes/spikes.png" id="2_afgux"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_snodo"]
-size = Vector2(31, 16)
+size = Vector2(33, 26)
 
 [node name="Spikes" type="Node2D"]
 script = ExtResource("1_2du0x")
@@ -15,7 +15,7 @@ texture = ExtResource("2_afgux")
 [node name="Area" type="Area2D" parent="."]
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Area"]
-position = Vector2(-0.5, 8)
+position = Vector2(0.5, 13)
 shape = SubResource("RectangleShape2D_snodo")
 
 [node name="Timer" type="Timer" parent="."]
